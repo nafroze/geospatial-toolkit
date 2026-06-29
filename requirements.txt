@@ -1,0 +1,14 @@
+# Requirements for the geospatial toolkit
+# generate_tiles.py, find_tiles_for_cells.py: numpy, rasterio
+# points_within_buffer.py: geopandas, shapely, pyproj, scipy, pandas, numpy
+
+numpy
+pandas
+geopandas
+shapely
+pyproj
+scipy
+rasterio
+
+# Tip: once your environment is final, pin exact versions for reproducibility:
+#   pip freeze | grep -iE "numpy|pandas|geopandas|shapely|pyproj|scipy|rasterio" > requirements.txt
